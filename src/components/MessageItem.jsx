@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 export default function MessageItem({ title, from, message, id, isRead }) {
   const [modal, setModal] = useState(false);
+
+  //toggle
   const toggle = () => {
     setModal(!modal);
   };
