@@ -4,7 +4,7 @@ import MailPage from "../components/MailPage";
 
 const Main = () => {
   return (
-    <div className="mt-[120px] container px-12">
+    <div className="mt-[120px] container px-12 mx-auto">
       <Navbar />
       <MailPage />
     </div>

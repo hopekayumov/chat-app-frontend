@@ -19,9 +19,9 @@ const Auth = () => {
     resolver: yupResolver(schema),
   });
 
-  const submitForm = async (data) => {
+  const submitForm = (data) => {
     try {
-      const res = await axios.post(
+        axios.post(
         "https://chat-app-itransition.herokuapp.com/api/login/",
         {
           name: data.name,
