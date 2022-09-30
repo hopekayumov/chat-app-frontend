@@ -126,7 +126,6 @@ export default function MailPage() {
               placeholder="Your message..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              id="exampleFormControlTextarea1"
             ></textarea>
           </div>
           <button
